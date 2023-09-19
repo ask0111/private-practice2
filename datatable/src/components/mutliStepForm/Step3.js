@@ -1,8 +1,9 @@
-// src/components/Step3.js
+
 import React from 'react';
 
 function Step3({ values, prevStep, submitForm }) {
   return (
+  
     <div>
       <h2>Step 3: Review and Submit</h2>
       <p>Name: {values.name}</p>
