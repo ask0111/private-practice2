@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'rc-slider/assets/index.css';
 import Slider from 'rc-slider';
 
+
 function YearRangeSlider() {
   const [yearRange, setYearRange] = useState([2000, 2022]);
 

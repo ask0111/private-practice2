@@ -5,6 +5,7 @@ import DataTables from './components/datatablecomponets/DataTables';
 import TableWrapper from './components/datatables/DataTable';
 import YearRangeSlider from './components/reactSlider/ReactSlider';
 import MultiStepForm from './components/mutliStepForm/MultiStepForm';
+import LazyImages from './components/LazyImages/LazyImages';
 
 function App() {
   return (
@@ -12,13 +13,15 @@ function App() {
     {/* <DataTables /> */}
     {/* <TableWrapper />
     <YearRangeSlider /> */}
-    <div className="container mt-5">
+    {/* <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
         <MultiStepForm />
         </div>
       </div>
-    </div>
+    </div> */}
+
+    <LazyImages />
     
     </div>
   );

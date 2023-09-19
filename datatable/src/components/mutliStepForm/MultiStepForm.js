@@ -1,20 +1,9 @@
 
-// import React from 'react';
 
-// const MultiStepForm = () => {
-//     return (
-//         <div>
-            
-//         </div>
-//     );
-// };
-
-// export default MultiStepForm;
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 
-// src/components/Auth.js
 import React, { useEffect, useState } from 'react';
 import Step1 from './Step1';
 import Step2 from './Step2';
@@ -52,8 +41,6 @@ function MultiStepForm() {
 
   const submitForm = () => {
     setStep(step + 1);
-    // Handle authentication logic (e.g., using Firebase)
-    // Once authenticated, you can redirect or perform other actions
     alert('Authentication Successful!');
   };
 
