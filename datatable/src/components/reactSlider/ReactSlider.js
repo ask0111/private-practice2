@@ -6,6 +6,9 @@ import Slider from 'rc-slider';
 function YearRangeSlider() {
   const [yearRange, setYearRange] = useState([2000, 2022]);
 
+  // const handleYearChange = (value) => {
+  //   setYearRange(value);
+  // };
   const handleYearChange = (value) => {
     setYearRange(value);
   };
